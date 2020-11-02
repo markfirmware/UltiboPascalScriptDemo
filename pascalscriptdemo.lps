@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Pi B"/>
+    <Units Count="19">
+      <Unit0>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="44"/>
+        <CursorPos X="28" Y="44"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="script.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="28"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="PascalScript/Source/uPSR_dll.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="33" Y="22"/>
+        <UsageCount Value="9"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="logoutput.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="4"/>
+        <CursorPos X="14" Y="20"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="scriptshell.pas"/>
+        <UnitName Value="ScriptShell"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="200"/>
+        <CursorPos X="5" Y="224"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="PascalScript/Source/uPSComponent.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1066"/>
+        <CursorPos X="23" Y="1075"/>
+        <UsageCount Value="11"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="PascalScript/Source/uPSUtils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="3" Y="26"/>
+        <UsageCount Value="9"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="PascalScript/Source/uPSCompiler.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15838"/>
+        <CursorPos X="5" Y="15865"/>
+        <UsageCount Value="11"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="PascalScript/Source/uPSRuntime.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="237"/>
+        <UsageCount Value="12"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../ultibo/core/fpc/source/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="8" Y="79"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="PascalScript/Source/uPSC_classes.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="294"/>
+        <CursorPos X="88" Y="307"/>
+        <UsageCount Value="9"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="PascalScript/Source/uPSR_classes.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="143"/>
+        <CursorPos X="75" Y="170"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="vishell.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="114"/>
+        <CursorPos X="17" Y="132"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../.cache/.fr-3IGG7t/pascal_script_example/gui.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="52" Y="34"/>
+        <UsageCount Value="9"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="PascalScript/Source/uPSC_std.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="12"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="PascalScript/Source/uPSR_std.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="20"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../ultibo/core/fpc/source/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2054"/>
+        <CursorPos X="11" Y="2070"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../../ultibo/core/fpc/source/rtl/objpas/classes/cregist.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="12" Y="33"/>
+        <UsageCount Value="9"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../ultibo/core/fpc/source/rtl/objpas/sysutils/sysstr.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="746"/>
+        <CursorPos X="32" Y="772"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="scriptshell.pas"/>
+        <Caret Line="170" Column="33" TopLine="154"/>
+      </Position1>
+      <Position2>
+        <Filename Value="scriptshell.pas"/>
+        <Caret Line="43" Column="11" TopLine="31"/>
+      </Position2>
+      <Position3>
+        <Filename Value="scriptshell.pas"/>
+        <Caret Line="185" Column="39" TopLine="176"/>
+      </Position3>
+      <Position4>
+        <Filename Value="scriptshell.pas"/>
+        <Caret Line="136" TopLine="126"/>
+      </Position4>
+      <Position5>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="78" Column="14" TopLine="63"/>
+      </Position5>
+      <Position6>
+        <Filename Value="script.pas"/>
+        <Caret Line="90" TopLine="70"/>
+      </Position6>
+      <Position7>
+        <Filename Value="scriptshell.pas"/>
+        <Caret Line="202" Column="37" TopLine="187"/>
+      </Position7>
+      <Position8>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="60" Column="17" TopLine="42"/>
+      </Position8>
+      <Position9>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="64" Column="18" TopLine="54"/>
+      </Position9>
+      <Position10>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="73" Column="27" TopLine="53"/>
+      </Position10>
+      <Position11>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="67" Column="75" TopLine="53"/>
+      </Position11>
+      <Position12>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="62" Column="24" TopLine="53"/>
+      </Position12>
+      <Position13>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="71" Column="74" TopLine="57"/>
+      </Position13>
+      <Position14>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="61" Column="36" TopLine="47"/>
+      </Position14>
+      <Position15>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="18" Column="10" TopLine="7"/>
+      </Position15>
+      <Position16>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="90" Column="10" TopLine="82"/>
+      </Position16>
+      <Position17>
+        <Filename Value="script.pas"/>
+        <Caret Line="130" Column="27" TopLine="98"/>
+      </Position17>
+      <Position18>
+        <Filename Value="script.pas"/>
+        <Caret Line="95" Column="5" TopLine="88"/>
+      </Position18>
+      <Position19>
+        <Filename Value="script.pas"/>
+        <Caret Line="168" Column="36" TopLine="153"/>
+      </Position19>
+      <Position20>
+        <Filename Value="script.pas"/>
+      </Position20>
+      <Position21>
+        <Filename Value="script.pas"/>
+        <Caret Line="32" Column="18" TopLine="14"/>
+      </Position21>
+      <Position22>
+        <Filename Value="scriptshell.pas"/>
+        <Caret Line="160" TopLine="133"/>
+      </Position22>
+      <Position23>
+        <Filename Value="scriptshell.pas"/>
+        <Caret Line="217" Column="41" TopLine="196"/>
+      </Position23>
+      <Position24>
+        <Filename Value="script.pas"/>
+        <Caret Line="198" Column="16" TopLine="185"/>
+      </Position24>
+      <Position25>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="14" Column="15"/>
+      </Position25>
+      <Position26>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="53" TopLine="37"/>
+      </Position26>
+      <Position27>
+        <Filename Value="pascalscriptdemo.lpr"/>
+        <Caret Line="52" Column="32" TopLine="39"/>
+      </Position27>
+      <Position28>
+        <Filename Value="script.pas"/>
+      </Position28>
+      <Position29>
+        <Filename Value="scriptshell.pas"/>
+      </Position29>
+      <Position30>
+        <Filename Value="script.pas"/>
+        <Caret Line="206" Column="12" TopLine="188"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

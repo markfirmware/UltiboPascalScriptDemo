@@ -1,0 +1,5 @@
+lib/
+kernel.img
+backup/
+vishell.pas
+*.elf
