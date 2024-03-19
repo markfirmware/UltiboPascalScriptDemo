@@ -32,6 +32,9 @@ binary, thereby effectively extending PascalScript.
 
 
 uses
+  {$ifdef QEMU}
+  QEMUVersatilePB,
+  {$endif}
   {$ifdef ZERO}
   RaspberryPi,
   {$endif}
@@ -63,6 +66,7 @@ uses
   logoutput
   ;
 
+const QEMU = {$ifdef QEMU} True {$else} False {$endif};
 var
   InfoWindowHandle : TWindowHandle;
 
@@ -89,9 +93,17 @@ begin
   Log('PascalScript for Ultibo Demo Application');
   Log('R. Metcalfe, November 2020');
   Log('');
-  Log('To use this application, open a telnet terminal using putty or a similar');
-  Log('application and connect to your raspberry Pi on the standard telnet port.');
-  Log('Your Pi must be connected to a wired network.');
+
+  if QEMU then
+  begin
+    Log('Running under QEMU - See QEMULauncher.ini.');
+    Log('Standard telnet port 23 is accessed through local port 7023.');
+    Log('Therefore try "telnet localhost 7023"')
+  end else begin
+    Log('To use this application, open a telnet terminal using putty or a similar');
+    Log('application and connect to your raspberry Pi on the standard telnet port.');
+    Log('Your Pi must be connected to a wired network.')
+  end;
 
   // assign some values to the globals the script will access
   // see the script unit for declaration of these variables and how they are

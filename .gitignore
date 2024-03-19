@@ -1,5 +1,6 @@
 lib/
 kernel.img
+kernel.bin
 backup/
 vishell.pas
 *.elf
