@@ -96,7 +96,7 @@
             <Filename Value="pascalscriptdemo"/>
           </Target>
           <SearchPaths>
-            <IncludeFiles Value="$(ProjOutDir)"/>
+            <IncludeFiles Value="$(ProjOutDir);$(LazarusDir)fpc/$(FPCVer)/source/packages/fv/src;$(LazarusDir)fpc/source/packages/fv/src"/>
             <OtherUnitFiles Value="PascalScript/Source"/>
             <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
           </SearchPaths>

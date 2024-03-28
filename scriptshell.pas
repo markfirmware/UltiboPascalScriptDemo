@@ -12,6 +12,13 @@ uses
   Shell;
 
 type
+  TEditShellCommand = class(TShellCommand)
+  public
+   constructor Create;
+  public
+   function DoCommand(AShell:TShell;ASession:TShellSession;AParameters:TStrings):Boolean; override;
+  end;
+
   TScriptShellCommand = class(TShellCommand)
   public
    constructor Create;
@@ -34,13 +41,43 @@ type
 var
    ScriptCmd : TScriptShellCommand;
    FunctionCmd : TFunctionShellCommand;
+   EditCmd : TEditShellCommand;
+   IsEditorStarted : Boolean;
 
 
 implementation
 
 uses
   script,
-  Variants;
+  Variants,
+  TextEditor,
+  GlobalTypes,
+  Console;
+
+
+constructor TEditShellCommand.Create;
+begin
+ inherited Create;
+ Name:='EDIT';
+ Flags:=0;
+end;
+
+function TEditShellCommand.DoCommand(AShell:TShell;ASession:TShellSession;AParameters:TStrings):Boolean;
+var
+ ScriptHandler : TPascalScriptHandler;
+begin
+ try
+ Result:=False;
+
+ if AShell = nil then Exit;
+
+ RunEditor;
+
+ except
+   on e : Exception do
+     AShell.DoOutput(Asession, 'Something went wrong with the editor: ' + e.message);
+ end;
+end;
 
 
 constructor TScriptShellCommand.Create;
@@ -214,9 +251,14 @@ begin
 end;
 
 initialization
+  IsEditorStarted:=False;
+
   // create and register shell commands.
   ScriptCmd := TScriptShellCommand.Create;
   ShellRegisterCommand(ScriptCmd);
+
+  EditCmd := TEditShellCommand.Create;
+  ShellRegisterCommand(EditCmd);
 
   FunctionCmd := TFunctionShellCommand.Create;
   ShellRegisterCommand(FunctionCmd);

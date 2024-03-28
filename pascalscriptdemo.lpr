@@ -63,7 +63,8 @@ uses
   scriptshell,
   framebuffer,
   console,
-  logoutput
+  logoutput,
+  ConsoleShell
   ;
 
 const QEMU = {$ifdef QEMU} True {$else} False {$endif};
@@ -86,9 +87,9 @@ begin
 end;
 
 begin
-  LogWindowHandle:=ConsoleWindowCreate(ConsoleDeviceGetDefault,CONSOLE_POSITION_BOTTOM,True);
+  LogWindowHandle:=ConsoleWindowCreate(ConsoleDeviceGetDefault,CONSOLE_POSITION_BOTTOMLEFT,True);
 
-  InfoWindowHandle:=ConsoleWindowCreate(ConsoleDeviceGetDefault,CONSOLE_POSITION_TOP,True);
+  InfoWindowHandle:=ConsoleWindowCreate(ConsoleDeviceGetDefault,CONSOLE_POSITION_TOPLEFT,True);
 
   Log('PascalScript for Ultibo Demo Application');
   Log('R. Metcalfe, November 2020');
